@@ -1,0 +1,25 @@
+#container{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    border-color: red;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+.child{
+    display: inline;
+    height: 20px;
+    width: 100%;
+     
+}
+
+img{
+    height: 500px;
+    width: 300;
+}
+body{
+    width: 100%;
+    position:  relative
+}
