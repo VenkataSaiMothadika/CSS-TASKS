@@ -1,0 +1,75 @@
+.container{
+    position: relative;
+    height: 500px;
+    width: 1500px;
+}
+.child1 h3{
+    background-color: black;
+    color: white;
+    top: 75%;
+    left: 40%;
+    position: absolute;
+    padding: 10px;
+    size: 20px;
+    font-size: 30px;
+    opacity: 80%;
+}
+.child1 p{
+    top: 75%;
+    left: 45%;
+    position: absolute;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.container2{
+    display: inline-block;
+    position: relative;
+    left: 20px;
+}
+.container2 h3{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: -18px;
+    padding: 15px;
+}
+.house1{  
+    display: inline-block;
+    width: 350px;
+    height: 200px;
+    position: relative;  
+}
+.house2{
+    display: inline-block;
+    width: 350px;
+    height: 200px;
+    position: relative;  
+}
+.house3{
+    display: inline-block;
+    width: 350px;
+    height: 200px;  
+}
+.house4{  
+    display: inline-block;
+    width: 350px;
+    height: 200px;
+    position: relative;
+} 
+.container3{
+    display: inline-block;
+    position: relative;
+    left: 20px;
+}
+.container3 h3{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: -18px;
+    padding: 15px;
+}
+img{
+  width: 100%;  
+}
