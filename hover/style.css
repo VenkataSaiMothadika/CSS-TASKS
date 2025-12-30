@@ -1,0 +1,247 @@
+.container{
+    width: 1200px;
+    height: 600px;
+   
+    display: block;
+}
+.child1{
+    display: flex;
+    height: 250px;
+    width: 1000px;
+    
+    right: 20px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.child2{
+    display: flex;
+    height: 250px;
+    width: 1000px;
+    right: 20px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 50px;
+    width: 70px;
+}
+.photo1{
+    height: 200px;
+    width: 150px;
+    /* border: 2px solid black; */
+    position: relative;
+    opacity: 1;
+}
+.photo1 img:hover{
+    opacity: 0;
+}
+.photo1 p{
+  position: absolute;
+  text-align: center;
+  top: -16px;
+  height: 200px;
+  width: 150px;
+  font-size: 1rem;
+  background:black;
+  color: white;
+  opacity: 0;
+  transition: all ease 5ms;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+.photo1 p:hover {
+   opacity: 1;
+}
+.photo2{
+    height: 200px;
+    width: 150px;
+    /* border: 2px solid black;  */
+}
+.photo2 img:hover{
+    opacity: 0;
+}
+.photo2 p{
+  position: absolute;
+  text-align: center;
+  text-decoration: dotted;
+  top:109px;
+height: 200px;
+  width: 150px;
+  font-size: 1rem;
+  background: black;
+  color: white;
+  opacity: 0;
+  transition: all ease 5ms;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+.photo2 p:hover {
+   opacity: 1;
+}
+
+.photo3{
+    height: 200px;
+    width: 150px;
+    /* border: 2px solid black; */
+}
+.photo3 img:hover{
+    opacity: 0;
+}
+.photo3 p{
+  position: absolute;
+  text-align: center;
+  text-decoration: dotted;
+  top: 110px;
+  height: 200px;
+  width: 150px;
+  font-size: 1rem;
+  background: black;
+  color: white;
+  opacity: 0;
+  transition: all ease 5ms;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+.photo3 p:hover {
+   opacity: 1;
+}
+
+.photo4{
+    height: 200px;
+    width: 150px;
+    /* border: 2px solid black; */
+}
+.photo4 img:hover{
+    opacity: 0;
+}
+.photo4 p{
+  position: absolute;
+  text-align: center;
+  text-decoration: dotted;
+  top: 110px;
+  height: 200px;
+  width: 150px;
+  font-size: 1rem;
+  background: black;
+  color: white;
+  opacity: 0;
+  transition: all ease 5ms;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+.photo4 p:hover {
+   opacity: 1;
+}
+
+.photo5{
+    height: 200px;
+    width: 150px;
+    /* border: 2px solid black; */
+}
+.photo5 img:hover{
+    opacity: 0;
+}
+.photo5 p{
+  position: absolute;
+  text-align: center;
+  text-decoration: dotted;
+  top: 378px;
+  height: 200px;
+  width: 150px;
+  font-size: 1rem;
+  background: black;
+  color: white;
+  opacity: 0;
+  transition: all ease 5ms;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+.photo5 p:hover {
+   opacity: 1;
+}
+
+.photo6{
+    height: 200px;
+    width: 150px;
+    /* border: 2px solid black; */
+}
+.photo6 img:hover{
+    opacity: 0;
+}
+.photo6 p{
+  position: absolute;
+  text-align: center;
+  text-decoration: dotted;
+  top: 378px;
+  height: 200px;
+  width: 150px;
+  font-size: 1rem;
+  background: black;
+  color: white;
+  opacity: 0;
+  transition: all ease 5ms;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+.photo6 p:hover {
+   opacity: 1;
+}
+.photo7{
+    height: 200px;
+    width: 150px;
+    /* border: 2px solid black; */
+}
+.photo7 img:hover{
+    opacity: 0;
+}
+.photo7 p{
+  position: absolute;
+  text-align: center;
+  text-decoration: dotted;
+  top: 378px;
+  height: 200px;
+  width: 150px;
+  font-size: 1rem;
+  background: black;
+  color: white;
+  opacity: 0;
+  transition: all ease 5ms;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+.photo7 p:hover {
+   opacity: 1;
+}
+.photo8{
+    height: 200px;
+    width: 150px;
+    border: 2px solid black;
+}
+.photo8 img:hover{
+    opacity: 0;
+}
+.photo8 p{
+  position: absolute;
+  text-align: center;
+  text-decoration: dotted;
+  top: 378px;
+  height: 200px;
+  width: 150px;
+  font-size: 1rem; 
+   background: black;
+  color: white;
+  opacity: 0;
+  transition: all ease 5ms;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+.photo8 p:hover {
+   opacity: 1;
+}
+img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
