@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SSC Marks Memo</title>
+    <style>
+        body{
+            margin:0;
+            padding:20px;
+            background:#eeeeee;
+            font-family:"Times New Roman", serif;
+        }
+        .memo{
+            width:900px;
+            margin:0 auto;
+            background:#fffbe9;
+            border:18px solid #e26a8a;
+            box-shadow:0 0 8px rgba(0,0,0,0.3);
+        }
+        .inner-border{
+            border:3px solid #b52b4f;
+            padding:12px 18px 18px 18px;
+        }
+        .center{text-align:center;}
+        .right{text-align:right;}
+        .bold{font-weight:bold;}
+        .small{font-size:12px;}
+        .xsmall{font-size:11px;}
+        .big-title{
+            font-size:28px;
+            font-weight:bold;
+            color:#b01733;
+            text-transform:uppercase;
+        }
+        .sub-title{
+            font-size:20px;
+            font-weight:bold;
+            color:#c52642;
+        }
+        .green{color:#00873b;}
+        .heading-row{
+            margin-top:5px;
+            font-size:14px;
+        }
+        .top-row{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            margin-top:10px;
+        }
+        .photo-box,.qr-box{
+            width:140px;
+            height:120px;
+            
+            background:#ff0000;
+            color:#ffffff;
+            font-weight:bold;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-size:14px;
+        }
+        .seal{
+            width:120px;
+            height:120px;
+            border-radius:50%;
+            border:3px solid #00873b;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-size:11px;
+            color:#00873b;
+            margin:0 auto;
+        }
+        .top-text{
+            text-align:center;
+            margin-top:2px;
+        }
+        .line{
+            border-bottom:1px solid #000;
+            display:inline-block;
+            min-width:200px;
+        }
+        .section{
+            margin-top:10px;
+            font-size:14px;
+        }
+        .dob-row{
+            border:1px solid #000;
+            margin-top:8px;
+            font-size:13px;
+        }
+        .dob-row td{
+            padding:3px 6px;
+            border-right:1px solid #000;
+        }
+        .dob-row td:last-child{
+            border-right:none;
+        }
+        table{
+            border-collapse:collapse;
+            width:100%;
+            margin-top:10px;
+            font-size:13px;
+        }
+        .marks-table th,
+        .marks-table td{
+            border:1px solid #000;
+            padding:4px 6px;
+        }
+        .marks-header{
+            background:#d4f0ff;
+            font-weight:bold;
+        }
+        .marks-table td.subject{
+            width:32%;
+        }
+        .gpa-box{
+            margin-top:6px;
+            border:1px solid #000;
+            padding:4px 6px;
+            font-weight:bold;
+            font-size:14px;
+        }
+        .gpa-value{
+            font-size:18px;
+            border:2px solid #000;
+            padding:2px 10px;
+            display:inline-block;
+            margin-left:10px;
+            background:#ffffff;
+        }
+        .cocurricular-table th,
+        .cocurricular-table td{
+            border:1px solid #000;
+            padding:4px 6px;
+        }
+        .id-marks{
+            margin-top:8px;
+            border:1px solid #000;
+            padding:6px 10px;
+            font-size:13px;
+        }
+        .footer{
+            margin-top:12px;
+            font-size:12px;
+        }
+        .footer-top{
+            display:flex;
+            justify-content:space-between;
+            align-items:flex-end;
+            margin-bottom:8px;
+        }
+        .date-issue{
+            font-weight:bold;
+        }
+        .footer-qr{
+            width:80px;
+            height:80px;
+            border:1px solid #000;
+            text-align:center;
+            font-size:10px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+        .sign-block{
+            text-align:right;
+            font-size:12px;
+        }
+        .rules{
+            border-top:1px solid #000;
+            padding-top:4px;
+            font-size:11px;
+        }
+        .barcode{
+            margin-top:4px;
+            text-align:center;
+            letter-spacing:3px;
+            font-size:10px;
+        }
+    </style>
+</head>
+<body>
+<div class="memo">
+    <div class="inner-border">
+
+        <!-- HEADER -->
+        <div class="center">
+            <div class="small bold">Board of Secondary Education</div>
+            <div class="green bold" style="margin-top:2px;">ANDHRA PRADESH, INDIA</div>
+        </div>
+
+        <div class="top-row">
+            <div class="photo-box">
+                <img src="https://www.hellotech.com/guide/wp-content/uploads/2020/05/HelloTech-qr-code-1024x1024.jpg" style="height: 120px; width: 140px;" alt="">
+            </div>
+            <div>
+                <div class="seal"><img src="http://hubert-herald.nl/BhaAndhraP_bestanden/image002.jpg" style="height: 140px;width: 140px; border-radius: 50%;" alt=""></div>
+            </div>
+            <div class="photo-box">
+                
+                <img src="sai_passportsize_photo.jpg" style="height: 120px;width: 140px;" alt="">
+            </div>
+        </div>
+
+        <div class="top-text">
+            <div class="big-title">SECONDARY SCHOOL CERTIFICATE</div>
+            <div class="sub-title" style="margin-top:4px;">REGULAR</div>
+            <div class="heading-row">
+                PC/16/15697/M1
+            </div>
+        </div>
+
+        <!-- CANDIDATE DETAILS -->
+        <div class="section xsmall">
+            <span class="bold">CERTIFIED THAT</span>
+            &nbsp; <span class="line">XXXXXXXX XXXXXXXX</span><br>
+            <span class="bold">FATHER NAME</span>
+            &nbsp;&nbsp;<span class="line">XXXXXXXX XXXXXXXX</span><br>
+            <span class="bold">MOTHER NAME</span>
+            &nbsp;&nbsp;<span class="line">XXXXXXXX XXXXXXXX</span><br>
+            <span class="bold">bearing Roll No.</span>
+            &nbsp;&nbsp;<span class="line">XXXXXXXX</span><br>
+            <span class="bold">belonging to</span>
+            &nbsp;&nbsp;<span class="line">OM SAI VIKAS V N, NARASIMHAPURAM, PRAKASAM DISTRICT</span><br>
+            has appeared and <span class="bold">PASSED SSC EXAMINATION held in MARCH 2019</span>
+            with <span class="bold">GPA 10.0</span><br>
+            and in <span class="bold">ENGLISH</span> as medium of instruction.
+        </div>
+
+        <!-- DOB -->
+        <table class="dob-row">
+            <tr>
+                <td class="bold">DATE OF BIRTH</td>
+                <td>02/03/2003</td>
+                <td class="bold">ZERO TWO</td>
+                <td class="bold">MARCH</td>
+                <td class="bold">TWO ZERO ZERO THREE</td>
+            </tr>
+        </table>
+
+        <!-- MARKS TABLE -->
+        <div class="section center bold" style="font-size:13px;">
+            THE CANDIDATE SECURED THE FOLLOWING GRADES AND GRADE POINTS IN CURRICULAR AREA :
+        </div>
+
+        <table class="marks-table">
+            <tr class="marks-header">
+                <th rowspan="2">CURRICULAR SUBJECTS</th>
+                <th colspan="2">GRADE</th>
+                <th colspan="2">OVERALL GRADE<br>(Internal + External)</th>
+            </tr>
+            <tr class="marks-header">
+                <th>(Internal)</th>
+                <th>(External)</th>
+                <th>Grade</th>
+                <th>Grade Points</th>
+            </tr>
+            <tr>
+                <td class="subject">FIRST LANGUAGE : ( TELUGU )</td>
+                <td>A1</td><td>A1</td><td>A1</td><td>10</td>
+            </tr>
+            <tr>
+                <td class="subject">SECOND LANGUAGE : ( HINDI )</td>
+                <td>A1</td><td>A1</td><td>A1</td><td>10</td>
+            </tr>
+            <tr>
+                <td class="subject">THIRD LANGUAGE : ENGLISH</td>
+                <td>A1</td><td>A1</td><td>A1</td><td>10</td>
+            </tr>
+            <tr>
+                <td class="subject">MATHEMATICS</td>
+                <td>A1</td><td>A1</td><td>A1</td><td>10</td>
+            </tr>
+            <tr>
+                <td class="subject">GENERAL SCIENCE</td>
+                <td>A1</td><td>A1</td><td>A1</td><td>10</td>
+            </tr>
+            <tr>
+                <td class="subject">SOCIAL STUDIES</td>
+                <td>A2</td><td>A1</td><td>A1</td><td>10</td>
+            </tr>
+        </table>
+
+        <div class="gpa-box">
+            GRADE POINTS AVERAGE (GPA) :
+            <span class="gpa-value">10.0</span>
+        </div>
+
+        <!-- CO-CURRICULAR -->
+        <div class="section center bold" style="font-size:13px;">
+            CO-CURRICULAR AREA :
+        </div>
+
+        <table class="cocurricular-table">
+            <tr class="marks-header">
+                <th>SUBJECT</th>
+                <th>GRADE</th>
+                <th>SUBJECT</th>
+                <th>GRADE</th>
+            </tr>
+            <tr>
+                <td>VALUE EDUCATION &amp; LIFE SKILLS</td>
+                <td>A+</td>
+                <td>WORK &amp; COMPUTER EDUCATION</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>ART &amp; CULTURAL EDUCATION</td>
+                <td>A+</td>
+                <td>HEALTH &amp; PHYSICAL EDUCATION</td>
+                <td>A+</td>
+            </tr>
+        </table>
+
+        <!-- GPA (again) -->
+        <div class="gpa-box">
+            GPA : <span class="gpa-value">10.0</span>
+        </div>
+
+        <!-- IDENTIFICATION -->
+        <div class="id-marks">
+            <span class="bold">Marks of Identification :</span><br>
+            1) A SMALL ON THE FORE HEAD IN THE CENTRE<br>
+            2) A SMALL MOLE ON THE LEFT HAND INDEX FINGER
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <div class="footer-top">
+                <div>
+                    <div class="date-issue">
+                        Date of issue : 14.05.2019
+                    </div>
+                </div>
+                <div class="footer-qr">
+                    <img src="https://www.hellotech.com/guide/wp-content/uploads/2020/05/HelloTech-qr-code-1024x1024.jpg" style="height: 80px; width: 80px;" ; alt="">
+                </div>
+                <div class="sign-block">
+                    <div> (Signature) </div>
+                    <div class="bold">SECRETARY</div>
+                    <div>BOARD OF SECONDARY EDUCATION</div>
+                    <div>A.P. AMARAVATHI</div>
+                </div>
+            </div>
+
+            <div class="rules">
+                1. Any corrections in the certificate will not be entertained after one year from the date of issue.<br>
+                2. Any unauthorised correction in the certificate will result in cancellation of certificate. 2019
+            </div>
+
+            <div class="barcode">
+                || ||| || ||| || || ||| ||||
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
