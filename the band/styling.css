@@ -1,0 +1,96 @@
+.nav-container {
+  width: 100%;
+  min-height: 20px;
+  background-color: black;
+  display: flex;
+  padding-top: 10px;
+}
+.child1{
+  width: fit-content;
+  height: 35px;
+  display: flex;
+  color: white; 
+  justify-content: space-around;
+  align-items: start;
+}
+.child2{
+    align-items: center;
+    width: 750px;
+    color: white;
+    display: flex;
+    justify-content: end;
+}
+h5{
+    width: 150px;
+    justify-content: space-around;
+}
+
+.images1 img{
+    width: 300px;
+    height: 300px;
+    align-items: center;
+
+}
+.block1{
+  text-align: center;
+}
+p{
+  left: 50px;
+  right: 50px;
+  gap: 20px;
+}
+.container2{
+  left: 50px;
+  right: 50px;
+}
+.contact{
+  height: 350px;
+  width: 100%;
+  background-color: white;
+}
+.cl1{
+  text-align: center;
+  word-spacing: 10%;
+}
+.cl1 h4{
+  opacity: 50%;
+}
+.yourdates{
+  background-color: black;
+  height: 700px;
+  width: 100%;
+}
+.text h1{
+  text-align: center;
+  top: 50px;
+  color: white;
+  padding: 20px;
+}
+.text p{
+  top: 50px;
+  color: white;
+  text-align: center;
+  opacity: 50%;
+}
+.months{
+  height: 300px;
+  width: 500pc;
+  padding-left: 50px;
+  color: grey;
+  background-color: white;
+}
+.months p{
+  background-color: red;
+  color: white;
+  max-width: fit-content;
+}
+.finalimg{
+  height: 500px;
+  width: 100%;
+}
+*{
+  position: sticky;
+}
+hr{
+  width: 1500px;
+}
