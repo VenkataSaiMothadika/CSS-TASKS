@@ -1,0 +1,61 @@
+.container{
+    border: 25px solid black;
+    height: 800px;
+    width: 800px; 
+    display: flex;  
+}
+
+.a1{
+    height: 100px;
+    width: 100px;
+   
+}
+.b1{
+    height: 100px;
+    width: 100px;
+    
+}
+.c1{
+    height: 100px;
+    width: 100px;
+    
+}
+.d1{
+    height: 100px;
+    width: 100px;
+    
+}
+.e1{
+    height: 100px;
+    width: 100px;
+   
+}
+.f1{
+    height: 100px;
+    width: 100px;
+    
+}
+.g1{
+    height: 100px;
+    width: 100px;
+
+}
+.h1{
+    height: 100px;
+    width: 100px;
+ 
+}
+#b{
+    background-color: rgb(236, 162, 65);
+}
+img{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.quote{
+    background-color: rgb(236, 162, 65);
+}
+.heading{
+    background-color: black;
+    color: white;
+}
